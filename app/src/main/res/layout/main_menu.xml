@@ -1,0 +1,22 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_fuck"
+        android:onClick="fuckMenu"
+        android:id="@+id/choose_game"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:layout_width="176dp"
+        android:layout_height="66dp"
+        android:id="@+id/editText"
+        android:layout_gravity="center_horizontal|top"
+        android:text="@string/info"
+        android:editable="false"/>
+
+</FrameLayout>
